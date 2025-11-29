@@ -70,3 +70,63 @@ H-CAT 是基于松坂有希 Mizuki 主题重构的**二次元萌系专属博客�
 - 猫羽雫同好交流平台（友链页、评论区可形成同好互动场景）
 
 ⭐ If you find this project helpful, please consider giving it a star!
+
+
+
+
+
+### 🌐 Theme Positioning
+
+H-CAT is a **cute anime-style dedicated blog template** rebuilt based on Yuki Matsuzaka's Mizuki theme. With the popular anime cat character "Nekoha Shizuku" as its core visual symbol, it fully retains the original "minimalist + full-featured" architecture while replacing all visual image resources with Nekoha Shizuku-themed materials. Interactive button icons and functional logic remain consistent with the original design, creating a practical and cute-style Astro blog solution.
+
+### 🛠️ Core Function Inheritance
+
+As an anime-style derivative of the Mizuki theme, H-CAT inherits the following core capabilities 1:1 to ensure no loss of functionality:
+
+- **Multi-scenario Adaptation**: Supports two modes (blog publishing and technical documentation) with automatic responsive layout adaptation for PC, tablet, and mobile devices. Nekoha Shizuku visual elements are fully displayed across different devices.
+
+- **Out-of-the-Box Experience**: Launches basic functions with zero configuration. Customizable theme colors (default soft color scheme matching Nekoha Shizuku’s image) and multiple languages (Chinese, English, Japanese, etc.) balance personalization and usability.
+
+- **Full-Stack Function Suite**: Built-in plugins including Twikoo comments, PageFind search, and Katex mathematical formulas. Features like code block highlighting and image galleries work normally, meeting the needs of tech bloggers and content creators.
+
+- **Content Enhancement**: Supports Markdown callout containers and collapsible modules. Inserted Nekoha Shizuku images can be automatically adapted to the Photoswipe gallery for high-definition viewing with a single click.
+
+### 🎨 Nekoha Shizuku-Exclusive Visual System
+
+Compared with the original Mizuki theme, H-CAT reconstructs all visual resources with the Nekoha Shizuku image to create an immersive anime atmosphere:
+
+1. **Thematic Visual Symbols**: Global Banner carousel images are replaced with Nekoha Shizuku illustrations in different scenarios (e.g., daily interactions, seasonal themes). Low-transparency cute Nekoha Shizuku elements are added to page backgrounds to enhance theme recognition.
+
+1. **Functional Component Images**: Friend link cards use default Nekoha Shizuku-style borders + avatars. Diary module backgrounds are replaced with Nekoha Shizuku’s daily life illustrations. Small Nekoha Shizuku decorations are added next to icons on the archive page and Anime page.
+
+1. **Sample Content Upgrade**: Default blog sample post images and About page personal introduction illustrations are all replaced with Nekoha Shizuku-related materials, allowing new users to see the complete theme effect immediately after launch.
+
+1. **Icon System Compatibility**: Interactive button icons (search, comments, code copying, directory expansion, etc.) fully follow the original design to avoid functional cognitive costs. Only subtle Nekoha Shizuku-themed accents (e.g., small paw prints) are added next to the icons.
+
+### 📜 License and Compliance Notes
+
+As a derivative work of the Mizuki theme, H-CAT adheres to the open-source license constraints of the original project. However, the **specific license type of the Mizuki theme** (e.g., MIT, Apache, GPL, etc.) has not been publicly confirmed through current search channels.
+
+In open-source projects, license information is typically stored in the LICENSE file in the root directory of the GitHub repository . To ensure compliance with usage rights (such as modification, distribution, and commercial use), it is strongly recommended to visit the [official Mizuki theme repository](https://github.com/matsuzaka-yuki/Mizuki) and check the root directory for the LICENSE file to obtain accurate license details.
+
+For H-CAT users, since only image resources have been replaced while the code architecture remains unchanged, compliance with the original Mizuki license is required for all usage scenarios.
+
+### 🚀 Technical Feature Guarantee
+
+- Built with Astro + Tailwind CSS, static rendering ensures fast page loading. Nekoha Shizuku images are optimized and compressed without affecting performance.
+
+- Compatible with all original command logic. Operations such as pnpm dev (local launch) and pnpm new-post (create a new post) remain completely consistent, resulting in zero migration cost.
+
+- Supports custom image replacement. Users can add more Nekoha Shizuku materials to the src/assets/ directory to flexibly expand the visual library.
+
+### 💡 Application Scenarios
+
+Designed specifically for anime enthusiasts, Nekoha Shizuku fans, and cute-style content creators, it is especially suitable for:
+
+- Anime-themed blogs (sharing anime, games, and peripheral content)
+
+- Personal life records (matching Nekoha Shizuku illustrations to make daily sharing more stylish)
+
+- Personalized showcase for tech bloggers (balancing the rigor of technical content with cute visuals)
+
+- Nekoha Shizuku fan exchange platforms (friend link pages and comment sections can form fan interaction scenarios)
