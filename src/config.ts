@@ -20,10 +20,10 @@ import { LinkPreset } from "./types/config";
 const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 const SITE_TIMEZONE = 8; //设置你的网站时区 from -12 to 12 default in UTC+8
 export const siteConfig: SiteConfig = {
-	title: "哈雷0V0的博客",
-	subtitle: "一个神秘的up主，带你打开新的世界!",
-	siteURL: "https://v-blog.halei0v0.top/", // 请替换为你的站点URL，以斜杠结尾
-	siteStartDate: "2025-10-08", // 站点开始运行日期，用于站点统计组件计算运行天数
+	title: "H-CAT Blog",
+	subtitle: "A demo site to find my way",
+	siteURL: "https://H-CAT.halei0v0.dpdns.org/", // 请替换为你的站点URL，以斜杠结尾
+	siteStartDate: "2025-11-29", // 站点开始运行日期，用于站点统计组件计算运行天数
 
 	timeZone: SITE_TIMEZONE,
 
@@ -158,7 +158,7 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "哈雷0V0的博客", // 主页横幅主标题
+			title: "H-CAT Blog", // 主页横幅主标题
 
 			subtitle: [
 				"Morning coffee, warm joy unfolds",
@@ -407,9 +407,9 @@ export const expressiveCodeConfig: ExpressiveCodeConfig = {
 };
 
 export const commentConfig: CommentConfig = {
-	enable: true, // 启用评论功能。当设置为 false 时，评论组件将不会显示在文章区域。
+	enable: false, // 启用评论功能。当设置为 false 时，评论组件将不会显示在文章区域。
 	twikoo: {
-		envId: "https://tool.v-blog.halei0v0.top",
+		envId: "https://twikoo.js.org/", // Twikoo 环境 ID ，请替换为你的 Twikoo 地址
 		lang: "zh_CN", // 设置 Twikoo 评论系统语言为英文
 	},
 };
@@ -427,7 +427,7 @@ export const announcementConfig: AnnouncementConfig = {
 };
 
 export const musicPlayerConfig: MusicPlayerConfig = {
-	enable: true, // 启用音乐播放器功能
+	enable: false, // 启用音乐播放器功能
 	mode: "meting", // 音乐播放器模式，可选 "local" 或 "meting"
 	meting_api:
 		"https://www.bilibili.uno/api?server=:server&type=:type&id=:id&auth=:auth&r=:r", // Meting API 地址
@@ -598,7 +598,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 };
 
 export const sakuraConfig: SakuraConfig = {
-	enable: false, // 默认关闭樱花特效
+	enable: true, // 默认关闭樱花特效
 	sakuraNum: 21, // 樱花数量
 	limitTimes: -1, // 樱花越界限制次数，-1为无限循环
 	size: {
@@ -660,10 +660,10 @@ export const widgetConfigs = {
 } as const;
 
 export const umamiConfig = {
-	enabled: true, // 是否显示Umami统计
-	apiKey: import.meta.env.UMAMI_API_KEY || "api_FcFZNJMiv65r5nMEygtYupbR1t9LVy7X", // API密钥优先从环境变量读取，否则使用配置文件中的值
+	enabled: false, // 是否显示Umami统计
+	apiKey: import.meta.env.UMAMI_API_KEY || "XXXXXXXXXXXX", // API密钥优先从环境变量读取，否则使用配置文件中的值
 	baseUrl: "https://api.umami.is", // Umami Cloud API地址
 	scripts: `
-<script defer src="https://cloud.umami.is/script.js" data-website-id="7e8a462b-965b-4efc-993a-772864309dcf"></script>
+<script defer src="https://cloud.umami.is/script.js" data-website-id="XXXXXXXXXXXXXX"></script>
   `.trim(), // 上面填你要插入的Script,不用再去Layout中插入
 } as const;

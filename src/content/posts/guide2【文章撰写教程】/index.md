@@ -3,7 +3,7 @@ title: 文章撰写教程
 published: 2025-10-18
 description: Mizuki博客搭建后的文章撰写教程。
 tags: [教程]
-image: "./16557622803025280.png"
+image: "./cover.png"
 category: 教程
 draft: false
 ---
